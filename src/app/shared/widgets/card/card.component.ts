@@ -43,6 +43,28 @@ export class CardComponent implements OnInit {
       exporting: {
         enabled: false
       },
+      xAxis: {
+        labels: {
+          enabled: false
+        },
+        title: {
+          text:null
+        },
+        startOnTick: false,
+        endOnTick: false,
+        tickOptions: []
+      },
+      yAxis: {
+        labels: {
+          enabled: false
+        },
+        title: {
+          text:null
+        },
+        startOnTick: false,
+        endOnTick: false,
+        tickOptions: []
+      },
       series: [{
         data: [71, 78, 39, 66]
       }]
